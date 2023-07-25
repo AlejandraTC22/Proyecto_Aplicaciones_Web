@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Tienda de Zapatos</title>
+  <link rel="stylesheet" href="Estilo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>MODA PIE</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#inicio" onclick="mostrarSeccion('inicio')">Inicio</a></li>
+      <li><a href="#Deportivo" onclick="mostrarSeccion('Deportivo')">Deportivo</a></li>
+      <li><a href="#Sandalias" onclick="mostrarSeccion('Sandalias')">Sandalias</a></li>
+      <li><a href="#Formales" onclick="mostrarSeccion('Formales')">Formales</a></li>
+      <li><a href="#" id="agregarZapato">Agregar Zapato</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <div id="inicioContent">
+        <!-- Aquí se mostrarán todos los zapatos agregados -->
+      </div>
+    </section>
+    <section id="Deportivo">
+      <h2>Deportivo</h2>
+      <div id="DeportivoContent">
+        <!-- Aquí se mostrarán los zapatos de Deportivos -->
+      </div>
+    </section>
+    <section id="Sandalias">
+      <h2>Sandalias</h2>
+      <div id="SandaliasContent">
+        <!-- Aquí se mostrarán los zapatos de Sandalias -->
+      </div>
+    </section>
+    <section id="Formales">
+      <h2>Formales</h2>
+      <div id="FormalesContent">
+        <!-- Aquí se mostrarán los zapatos de Formales -->
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
